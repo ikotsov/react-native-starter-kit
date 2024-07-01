@@ -8,4 +8,5 @@ module.exports = {
     // Ensures 'any' will be used only as a last resort
     '@typescript-eslint/no-explicit-any': 'error'
   },
+  ignorePatterns: ['node_modules/', 'android/', 'ios/']
 };
